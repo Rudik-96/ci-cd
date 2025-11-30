@@ -25,5 +25,8 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: lint
+        run: npm run lint
+
       - name: Say Hello
         run: echo "Hello from CI"
