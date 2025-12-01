@@ -1,9 +1,7 @@
-import { useState } from "react";
 import lor from "./assets/lor.png";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
